@@ -19,7 +19,7 @@ def get_version():
                 return eval(line.split("=")[-1])
 
 setup(
-    name='demoapi',
+    name='api',
     version=get_version(),
     description='Sample package for Python API',
     long_description=readme,
